@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: 當前路徑 - CMD",
+            "type": "python",
+            "request": "launch",
+            "cwd":"${fileDirname}",
+            "program": "${file}",
+            "console": "externalTerminal",
+            "env": {"PYTHONPATH": "${workspaceRoot}"},
+        },
+        {
+            "name": "Python: 當前路徑 - 內置Terminal",
+            "type": "python",
+            "request": "launch",
+            "cwd":"${fileDirname}",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "env": {"PYTHONPATH": "${workspaceRoot}"},
+         },
+    ]
+ }
